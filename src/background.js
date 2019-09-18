@@ -6,10 +6,6 @@ import {
   installVueDevtools
 } from 'vue-cli-plugin-electron-builder/lib'
 const isDevelopment = process.env.NODE_ENV !== 'production'
-require('update-electron-app')({
-  repo: 'https://github.com/guifengjin/vueElectron.git',
-  updateInterval: '10 minutes',
-})
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
