@@ -27,6 +27,12 @@ module.exports = {
         mac: {
           icon: './public/favicon.png'
         },
+        publish: [
+          {
+            provider: "generic",
+            url: "http://localhost:8090/",//隐藏版本服务器地址
+          }
+        ],
         productName: 'BeeBox'
       }
     }
