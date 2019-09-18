@@ -7,9 +7,8 @@ import {
 } from 'vue-cli-plugin-electron-builder/lib'
 const isDevelopment = process.env.NODE_ENV !== 'production'
 require('update-electron-app')({
-  repo: 'github-user/repo',
-  updateInterval: '1 hour',
-  logger: require('electron-log')
+  repo: 'https://github.com/guifengjin/vueElectron.git',
+  updateInterval: '10 minutes',
 })
 
 // Keep a global reference of the window object, if you don't, the window will
