@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h1>HOME - PAGE</h1>
-    <button @click="goAbout">GO ABOUT***</button>
+    <el-button @click="goAbout">GO ABOUT</el-button>
   </div>
 </template>
 
